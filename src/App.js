@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Typography variant="h1">Todo App List</Typography>
+        <Typography variant="h1">Hello, Todo App List</Typography>
         
         <hr />
 
