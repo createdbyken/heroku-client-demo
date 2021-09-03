@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import TodoForm from "./TodoForm"
 import TodoItem from "./TodoItem"
 
-const api_url = `http://localhost:3001/api/v1/todos`
+const api_url = process.REACT_APP_API_LINK
 
 class TodoList extends Component {
     constructor(props) {
