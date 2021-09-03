@@ -52,7 +52,7 @@ class TodoForm extends Component {
                         onChange={this.handleTaskChange} />
                     <Button variant="contained"
                         color="primary"
-                        type="submit">Add Task</Button>
+                        type="submit">Create Task</Button>
                 </form>
             </div>
         )
